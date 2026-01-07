@@ -1,0 +1,22 @@
+[project]
+name = "aethos-ai"
+version = "0.1.0"
+description = "A modular AI orchestration framework for Aethos."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Aethos Contributors" }
+]
+keywords = ["ai", "orchestration", "sensors", "actuators"]
+
+[project.scripts]
+aethos-ai = "aethos_ai.cli:main"
+
+[tool.black]
+line-length = 100
+
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
