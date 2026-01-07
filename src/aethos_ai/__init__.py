@@ -1,3 +1,8 @@
+"""Aethos AI orchestration package."""
+
+from .orchestrator import Orchestrator
+
+__all__ = ["Orchestrator"]
 """Aethos AI starter package."""
 
 from .core.identity import AethosProfile
